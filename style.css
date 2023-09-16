@@ -18,6 +18,7 @@ div.container{
     border-radius: 15px;
     border: 1px solid black;
     padding: 1rem;
+    background-color: #fff;
 
 }
 
@@ -29,7 +30,7 @@ div.header{
 }
 
 div.search input{
-    border: 0;
+    border: 1px solid;
     height: 2.6rem;
     border-radius: 30px;
     width: 100%;
@@ -38,17 +39,17 @@ div.search input{
 }
 
 div.search{
-    width: 80%;
+    width: 75%;
 }
 
-div.search-icon{
-    background-color: #fff;
-    height: 2.5rem;
-    border-radius: 50%;
-    width: 2.5rem;
-    cursor: pointer;
+div.addBtn .add{
+    border: 0;
+    background-color: #480ca8;
+    color: #fff;
+    height: 2.6rem;
+    border-radius: 30px;
+    width: 100%;
+    padding: 0.3rem 0.9rem;
+    font-weight: bold;
 }
 
-div.search-icon i{
-    padding: 0.8rem;
-}
