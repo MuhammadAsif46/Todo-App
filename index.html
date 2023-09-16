@@ -4,6 +4,10 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
     <title>Todo App</title>
   </head>
   <body>
@@ -13,12 +17,37 @@
           <input type="search" id="cityName" placeholder="Enter City Name" />
         </div>
         <div class="addBtn">
-            <button type="submit" class="add">Add Todo</button>
+          <button onclick="addTodo()" type="submit" class="add">
+            Add Todo
+          </button>
         </div>
       </div>
       <div class="hero-section">
-        
+        <div>
+            <p class="para"> hello </p>
+            <div class="icons">
+                <i class="fa-regular fa-pen-to-square" title="Edit"></i>
+                <i class="fa fa-trash-can delete-btn" title="Delete"></i>
+            </div>
+          <!-- <button onclick="delTodo()">delete</button>
+            <button onclick="editTodo(this)">edit</button> -->
+        </div>
       </div>
     </div>
+    <!-- <div class="row">
+      <div class="column">
+        <h5 class="name">${json_parse.p_description}</h5>
+        <h5 class="price amount">${json_parse.p_inputAmount}</h5>
+        <h5 class="date">${json_parse.p_inputDate}</h5>
+        <div class="icons">
+          <i
+            class="fa-regular fa-pen-to-square icon-1 edit-btn"
+            title="Edit"
+          ></i
+          ><i class="fa fa-trash-can delete-btn icon-2" title="Delete"></i>
+        </div>
+      </div>
+    </div> -->
+    <script src="app.js"></script>
   </body>
 </html>
