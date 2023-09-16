@@ -7,5 +7,38 @@ body{
     background-color: #7F00FF;  /* fallback for old browsers */
     background-color: -webkit-linear-gradient(to right, #E100FF, #7F00FF);  /* Chrome 10-25, Safari 5.1-6 */
     background-color: linear-gradient(to right, #E100FF, #7F00FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    display: flex;
+    justify-content: center;
 }
 
+div.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 4rem; 
+}
+
+div.search input{
+    border: 0;
+    height: 2.6rem;
+    border-radius: 30px;
+    width: 100%;
+    padding: 0.3rem 0.9rem;
+    font-size: 1.3rem;
+}
+
+div.search{
+    width: 80%;
+}
+
+div.search-icon{
+    background-color: #fff;
+    height: 2.5rem;
+    border-radius: 50%;
+    width: 2.5rem;
+    cursor: pointer;
+}
+
+div.search-icon i{
+    padding: 0.8rem;
+}
