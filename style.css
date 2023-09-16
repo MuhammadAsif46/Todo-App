@@ -1,6 +1,7 @@
 *{
     margin: 0;
     padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 body{
@@ -31,9 +32,9 @@ div.header{
 
 div.search input{
     border: 1px solid;
-    height: 2.6rem;
+    height: 1.9rem;
     border-radius: 30px;
-    width: 100%;
+    width: 85%;
     padding: 0.3rem 0.9rem;
     font-size: 1.3rem;
 }
@@ -56,28 +57,46 @@ div.addBtn .add{
 /* hero-section */
 
 div.hero-section{
-    border: 1px solid #000;
+    /* border: 1px solid #000; */
     /* padding: 2px; */
     margin-top: 3rem;
 }
 
 div.column{
-    border: 2px solid red;
+    /* border: 2px solid red; */
     padding: 5px;
     display: flex;
     justify-content: space-between;
 }
 
 div.para{
-    border: 2px solid green;
+    /* border: 2px solid green; */
     width: 50%;
+    padding: 0.7rem;
+    font-size: 1.1rem;
+    text-transform: capitalize;
 }
 
 div.icons{
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     /* width: 20%; */
 }
 
 div.icons  i{
-    margin: 5px 5px;
+    /* margin: 5px 5px; */
+    padding: 0.7rem ;
+    background-color: #480ca8;
+    color: #fff;
 }
+
+.icon-1:hover {
+    color: blue;
+    cursor: pointer;
+}
+
+
+.icon-2:hover {
+    color: red;
+    cursor: pointer;
+}
+
